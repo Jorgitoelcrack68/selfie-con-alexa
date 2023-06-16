@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            selfie por voz
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body>
+        <center>
+            <h1>
+                Pagina web de selfies mediante voz
+            </h1>
+            <h2 id="permitir">
+                Haz click en "permitir" cuando aparezca la ventanita para que podamos usar tu microfono
+            </h2>
+            <h2 id="instruxiones">
+                Di"Toma mi selfie"
+            </h2>
+            <textarea name="" id="lo_ke_dijiste" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <button onclick="detexion_de_bos()" id="boton">
+                deteccion de voz
+            </button>
+            <h3>
+                la vista de tu cámara estara aquí
+            </h3>
+            <div id="imagen_camara">
+                
+            </div>
+            <h3>
+                tu foto estara aqui
+            </h3>
+            <div id="foto">
+
+            </div>
+        </center>
+        <script src="main.js">
+
+        </script>
+    </body>
+</html>

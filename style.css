@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(24, 177, 167);
+}
+#permitir{
+    color: rgb(255, 0, 0);
+}
+#instruxiones{
+    font-size: xx-large;
+}
+h1{
+    font-size: 50px;
+}
+#boton{
+    background-color: rgb(30, 132, 30);
+    font-size: x-large;
+}
